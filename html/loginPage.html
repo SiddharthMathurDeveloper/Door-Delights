@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/loginPage.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <title>Door Delights</title>
+  </head>
+  <body>
+    <img src="img/back.jpeg" alt="" srcset="" width="100%" height="720vh">
+
+
+    <div id="login_area">
+      <img src="img/deliveryboy.png" alt="" srcset=""   class="boy_img" >
+      <h1 class="login_heading">LOG IN</h1>
+
+      <form action="/" method="POST">
+        <input
+          type="email"
+          name="email"
+          id="email_login"
+          placeholder="Email Address"
+        />
+        <input
+          type="password"
+          name="password"
+          id="password_login"
+          placeholder="Password"
+        />
+        <input type="checkbox" onclick="myFunction()" id="show_password">
+        <input type="submit" value="LOG IN" id="submit_login" class="login_submit"/>
+      </form>
+
+      <button class="google_login">
+        <img src="img/google.png" alt="" srcset="" class="google_img" />
+        <a href="google"> <p class="words">LOGIN WITH GOOGLE</p> </a>
+      </button>
+
+      <button class="yahoo_login">
+        <img src="img/Facebook.png" alt="" srcset="" class="face_img" />
+        <a href="facebook"> <p class="words">LOGIN WITH Facebook</p> </a>
+      </button>
+
+      <p id="link_sign">Don't have a accout? <a href="SignIn">Sign in</a></p>
+
+      <p class="OR">Or Sign up Using ANy One</p>
+    </div>
+
+
+
+    <script src="js/three.min.js"></script>
+    <script src="js/loginPage.js"></script>
+  </body>
+</html>

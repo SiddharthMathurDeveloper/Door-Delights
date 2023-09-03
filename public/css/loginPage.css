@@ -1,0 +1,224 @@
+
+*{
+   margin: 0px;
+   padding: 0px;
+  
+  
+}
+
+
+body{
+   background-color: blue;
+}
+
+
+.login_submit{
+   font-family: 'Bebas Neue', cursive;
+
+}
+
+
+
+.login_heading{
+   position: absolute;
+   top: 10%;
+   left: 35%;
+   color: black;
+   font-size: 60px;
+   
+
+   
+}
+
+
+#email_login{
+   width: 80%;
+   position: absolute;
+   top: 30%;
+   left: 10%;
+   border-width:0px;
+   border:none;
+   padding: 5px;
+   font-size: 20px;
+   outline: none;
+   background-color: transparent;
+   border-bottom: grey 2px solid;
+   color: black;
+}
+
+#password_login{
+   width: 80%;
+   position: absolute;
+   top: 40%;
+   left: 10%;
+   border-width:0px;
+   border:none;
+   outline: none;
+   border-bottom: grey 2px solid;
+   background-color: transparent;
+   padding: 5px;
+   font-size: 20px;
+   color: black;
+
+}
+
+
+
+#submit_login{
+   width: 80%;
+   position: absolute;
+   top: 50%;
+   left: 10%;
+   height: 6%;
+   border-radius: 10px;
+
+  /* background-color: #00308F; */
+  background-color: #0066b2;
+
+
+   font-size: 20px;
+   color: white;
+}
+
+
+#link_sign{
+   width: 80%;
+   position: absolute;
+   top: 60%;
+   left: 10%;
+   color: black;
+   font-size: 18px;
+
+
+}
+
+#link_sign a{
+   color: orange;
+}
+
+canvas{
+   position:fixed;
+ 
+ }
+
+.google_login{
+   position:absolute;
+   width: 80%;
+   left: 10%;
+   background-color: navy;
+   font-size: 20px;
+   height: 6%;
+   top: 80%;
+  
+   
+}
+
+
+.OR{
+   position:absolute;
+   font-size: 20px;
+   left: 35%;
+   top:74%;
+   
+
+}
+
+
+
+.google_img{
+   width: 23px;
+   height: 23px;
+   position: absolute;
+   left: 30px;
+   top:3px
+   
+}
+
+
+.face_img{
+   width: 30px;
+   height: 27px;
+   position: absolute;
+   left: 28px;
+   top:3px
+   
+}
+
+
+
+.google_login a {
+   color: #FFFFFF;
+   text-decoration: none;
+}
+
+
+.yahoo_login{
+   position:absolute;
+   width: 80%;
+   left: 10%;
+   background-color: navy;
+   font-size: 20px;
+   height: 6%;
+   top: 90%;
+  
+   
+}
+
+.yahoo_login a {
+   color: #FFFFFF;
+   text-decoration: none;
+}
+
+
+.door{
+   width: 100%;
+   height: 100vh;
+
+}
+
+
+
+.words{
+   font-family: 'Bebas Neue', cursive;
+}
+
+
+
+
+#login_area{
+   width: 70vh;
+   height: 90vh;
+   background-color: white;
+   position: absolute;
+   top: 5vh;
+   left: 70vh;
+   font-family: 'Bebas Neue', cursive;
+   outline: 2px solid orange;
+        outline-offset:-2px;
+      
+   
+  border-radius: 25px;
+
+}
+
+
+#show_password{
+
+   position: absolute;
+   top: 42%;
+   left: 87%;
+   height: 20px;
+   width: 20px;
+   
+
+}
+
+
+.boy_img{
+   position: absolute;
+   left: 60%;
+   top: 74px;
+   width: 40px;
+   height: 50px;
+}
+

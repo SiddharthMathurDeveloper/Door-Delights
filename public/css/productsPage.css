@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#top{
+    background-color: brown;
+    height: 50px;
+}
+
+#middle{
+    background-color: green;
+    height: 100px;
+
+}
+
+#bottom{
+    display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+   
+}
+.grid-item{
+    background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.img_ok{
+    background-color: black;
+    height: 30vh;
+    width: 400px;
+}

@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body{
+   background-color: darkblue;
+}
+
+
+ 
+ .terms{
+    position: absolute;
+    top: 65vh;
+    left: 13vh;
+ }
+  
+
+ 
+ .split_right{
+   width: 70vh;
+   height: 90vh;
+   background-color: white;
+   position: absolute;
+   top: 5vh;
+   left: 70vh;
+   font-family: 'Bebas Neue', cursive;
+   outline: 2px solid orange;
+        outline-offset:-2px;
+      
+   
+  border-radius: 25px;
+   
+ 
+ }
+ 
+ 
+ .login_heading{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+ 
+    
+ }
+ 
+
+
+#username_signin{
+    width: 80%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+   
+    
+    padding: 5px;
+    font-size: 20px;
+    
+    border: black 2px solid;
+
+}
+
+
+ 
+ #email_signin{
+    width: 80%;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+   
+    padding: 5px;
+    font-size: 20px;
+    border: black 2px solid;
+    
+    
+ }
+ 
+ #password_signin{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    border-width:0px;
+    
+    border: black 2px solid;
+    padding: 5px;
+    font-size: 20px;
+ 
+ }
+ 
+ 
+ 
+ #submit_signin{
+    width: 80%;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    height: 6%;
+    border-radius: 10px;
+    background-color: #0066b2;
+    font-size: 20px;
+    color: white;
+   
+    
+ }
+
+ .setup{
+    position:absolute;
+    top: 16vh;
+    left: 10vh;
+   
+ }
+ 
+ .setup a{
+    color: chocolate;
+    outline: none;
+ }
+
+
+ .note_img{
+   position: absolute;
+   left: 63%;
+   top: 58px;
+   width: 40px;
+   height: 40px;
+}
+ 
+

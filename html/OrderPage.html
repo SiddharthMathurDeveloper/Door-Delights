@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/OrderPage.css">
+    <title>Document</title>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function() {
+    emailjs.init("user_jkFLx4MfEQBPhJ00Ysx8O");
+    })();
+    </script>
+
+
+
+
+
+
+</head>
+<br>
+    <h2 style="color: white;" id="order_text_top">ORDER </h2>
+    <textarea name="" id="notepad" cols="100" rows="30"  placeholder="Enter Fruits and Vegetable here"></textarea>
+    <textarea name="" id="notepad2" cols="100" rows="30"  placeholder="Medicine here"></textarea>
+    <textarea name="" id="notepad3" cols="100" rows="30"  placeholder="Snack,Groceries and Stationary here"></textarea>
+    
+    
+
+    <div id="information">
+        <p style="font-size: 35px;color:white; "  class="order_text">Enter order details</p>
+        <input type="text" placeholder="NAME" class="username">
+        <input type="tel" placeholder="PHONE"  class="userphone">
+        <input type="text" placeholder="EMAIL"  class="userEmail">
+        
+        <input type="text" placeholder="ADDRESS"  class="useraddress">
+        <input type="text" placeholder="CITY"  class="userCity">
+       <br>
+         <input type="button" value="Send Email" class="button_send_mail" onclick="sendEmail()">
+    </div>
+
+    
+  <script src="js/OrderPage.js"></script> 
+
+    
+</body>
+</html>

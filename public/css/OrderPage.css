@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /* background-color:#1C0C5B; */
+    /* background: #0f2027; 
+  background: -webkit-linear-gradient(to top, #0f2027, #203a43, #2c5364);  */
+ 
+
+  background: #141E30;  /* fallback for old browsers */
+
+}
+
+#order_text_top{
+    text-align: center;
+    font-size: 3rem;
+    
+}
+
+
+#notepad{
+    position: absolute;
+    top: 20%;
+    font-size: 25px;
+    width: 50%;
+    left: 2%;
+    border-color: gold;
+    background-color: black;
+    color: white;
+    height: 35%;
+    
+}
+
+#notepad2{
+    position: absolute;
+    top: 60%;
+    font-size: 25px;
+    width: 50%;
+    left: 2%;
+    border-color: gold;
+    background-color: black;
+    color: white;
+    height: 35%;
+}
+
+ #notepad3{
+    position: absolute;
+    top: 100%;
+    font-size: 25px;
+    width: 50%;
+    left: 2%;
+    border-color: gold;
+    background-color: black;
+    color: white;
+    height: 35%;
+    
+}
+
+
+
+
+#information{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    border: 2px solid white;
+    border-radius: 5%;
+    background-color: #222831;
+    width: 30%;
+    height: 90%;
+    box-shadow: 10px 5px 5px hsl(39, 33%, 73%);
+}
+
+
+
+.order_text{
+    text-align: center;
+}
+
+.username{
+    width: 80%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+
+.userphone{
+    width: 80%;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    padding: 5px;
+    margin-top: 7%;
+    font-size: 20px;
+
+}
+.userEmail{
+    width: 80%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    padding: 5px;
+    margin-top: 14%;
+    font-size: 20px;
+
+}
+
+.useraddress{
+    margin-top: 28%;
+    width: 80%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    padding: 5px;
+    font-size: 20px;
+
+}
+
+.userCity{
+    margin-top: 35%;
+    width: 80%;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    padding: 5px;
+    font-size: 20px;
+
+}
+
+.button_send_mail{
+    margin-top: 35%;
+    width: 80%;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+
+

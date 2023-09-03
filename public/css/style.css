@@ -1,0 +1,107 @@
+
+.slogan{ background-color: #da6929;
+    color: white;
+    height: 48px;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+
+.bigsize{
+    font-size: 17px;
+}
+.bold{
+    font-weight: bold;
+}
+
+.more{
+    font-size: 32px;
+}
+.h1 { font-family: Oswald; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 18.7px; } h3 { font-family: Oswald; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 22px; } p { font-family: Oswald; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 22px; } blockquote { font-family: Oswald; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Oswald; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+
+
+.right{
+    display: flex;
+    justify-content: right;
+    gap: 16px;
+    
+}
+.smedia a{
+    color: #da6929;
+
+}
+.q{
+    color: #da6929;
+}
+.bada{
+    font-size: 55px !important;
+    /* display:flex !important; */
+    /* justify-content:left !important;
+    align-items:flex-end !important; */
+    
+}
+.big{
+    display: flex !important;
+    height:60vh !important;
+    justify-content: right;
+}
+.px-2 {
+     padding-top: 50px !important;
+    padding-right:  200px !important;
+  }
+.px-1{
+    padding-left:  50px !important;
+    padding-top: 50px !important;
+}
+.sb{
+    display: flex !important;
+    justify-content: left !important;
+    align-items: left !important;
+    
+    size: 30vh !important;
+}
+
+/* .card{
+    position: absolute ;
+    top: 60vh;
+    left: 5vh;
+}
+.card2{
+    position: absolute ;
+    top: 60vh;
+    left: 5vh;
+}
+.card3{
+    position: absolute ;
+    top: 60vh;
+    left: 5vh;
+} */
+/* .card-deck{
+    display: flex;
+    
+    width: calc(50% - 2em);
+  margin: 1em;
+
+} */
+.card{
+    top: 20vh;
+    margin: 20vh;
+}
+.sexy{
+    position:absolute;
+    top: 110vh;
+    left: 78vh;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.butt{
+    text-decoration: none;
+}
+
+.select{
+    margin-left:  12vh;
+}
+.img-fluid{
+    border-radius: 50px;
+}
