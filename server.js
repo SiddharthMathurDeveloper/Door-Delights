@@ -17,7 +17,7 @@ var LocalStrategy =localtime.Strategy;
 
 
 var Strategy2 = yahootime.Strategy;
-const commerce = new Commerce('{pk_35769ecf708f43e1c0ad178a866e55560720009e5d856}');
+const commerce = new Commerce('{}');
 
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -55,8 +55,8 @@ passport.deserializeUser((user, done) => {
 })
 
 passport.use(new GoogleStrategy({
-    clientID: '469250315751-hvnfirv2nvr2gjsevj2l0g84ebdgkdf6.apps.googleusercontent.com',
-    clientSecret: '3Gr29Y5KVWP3_-E_Vjd_iMuv',
+    clientID: '',
+    clientSecret: '',
     callbackURL: "http://localhost:5000/auth/google"
   },
   function(accessToken, refreshToken, profile, cb) {
@@ -102,8 +102,8 @@ app.use(passport.session());
 passport.use(new facebookStrategy({
 
   // pull in our app id and secret from our auth.js file
-  clientID        : "237372588191294",
-  clientSecret    : "198b8e7455f2d16c5fc3fee8a089a73b",
+  clientID        : "",
+  clientSecret    : "",
   callbackURL     : "http://localhost:5000/auth/facebook"
 
 },// facebook will send back the token and profile
